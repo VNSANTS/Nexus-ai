@@ -1,0 +1,209 @@
+[
+  {
+    "name": "nexus-arquivos",
+    "category": "Administração de arquivos",
+    "triggers": "arquivos backup cópia integridade hash sincronização",
+    "description": "Copiar e verificar arquivos preservando originais.",
+    "sha256": "502b6d840fd8519b8f599851f2e74baf6d648d4d5c1c6997055044d72c775161",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Administração de arquivos/nexus-arquivos/SKILL.md"
+  },
+  {
+    "name": "nexus-android",
+    "category": "Android",
+    "triggers": "android armazenamento cartão microsd saf permissões",
+    "description": "Diagnosticar acesso a armazenamento Android sem root.",
+    "sha256": "7b05825136c058a28830318dd31574cd805d3b523cd5b0b8a5329553d295ec70",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Android/nexus-android/SKILL.md"
+  },
+  {
+    "name": "nexus-device-control",
+    "category": "Android",
+    "triggers": "celular controlar telefone android toque deslize acessibilidade administrador voltar início recentes bloquear tela controle dispositivo",
+    "description": "Controlar este celular Android pelo plugin Nexus Controle, quando o usuário pedir início, voltar, recentes, notificações, toque, deslize ou bloquear a tela. Também usar para verificar pareamento e permissões desse plugin.",
+    "sha256": "f2f3160daaa94ae6ddbc57e59a5b68f4c43ac412279be160bbec187153b1929a",
+    "validation": "reviewed-procedure-device-permissions-pending",
+    "relative_source": "03_SKILLS/v03/Android/nexus-device-control/SKILL.md"
+  },
+  {
+    "name": "nexus-automacao",
+    "category": "Automação",
+    "triggers": "automação script rotina idempotência agendamento",
+    "description": "Criar automações locais com falhas recuperáveis.",
+    "sha256": "fbbf2c7cdd54a2b813cf1ffe97bf162000a4dfd24a465d7dd958d93c99279be3",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Automação/nexus-automacao/SKILL.md"
+  },
+  {
+    "name": "nexus-defesa",
+    "category": "Cibersegurança defensiva",
+    "triggers": "segurança defensiva auditoria vulnerabilidade permissões",
+    "description": "Revisar exposição e permissões de sistemas autorizados.",
+    "sha256": "52b7d729054dc873573ca74a964f1367e4c4ee08ad0fd33e86ff9011c39b659b",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Cibersegurança defensiva/nexus-defesa/SKILL.md"
+  },
+  {
+    "name": "nexus-financas",
+    "category": "Finanças e negócios",
+    "triggers": "finanças negócios receita despesa orçamento empresa",
+    "description": "Organizar cálculos empresariais com premissas explícitas.",
+    "sha256": "7c8ab7a928847ea217e47493d16fa212a0dcaa492ed176f3b3b3f5c89cb78d9c",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Finanças e negócios/nexus-financas/SKILL.md"
+  },
+  {
+    "name": "nexus-termux",
+    "category": "Linux e Termux",
+    "triggers": "linux termux shell pacote ambiente comando",
+    "description": "Inspecionar ferramentas e limitações reais do Termux.",
+    "sha256": "f525d3301bf1891891241d45abe1b439418968238584bdeaaa3e8f8e5739b60f",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Linux e Termux/nexus-termux/SKILL.md"
+  },
+  {
+    "name": "nexus-planejamento",
+    "category": "Organização e planejamento",
+    "triggers": "planejamento organização tarefa plano prioridades",
+    "description": "Organizar tarefas e continuidade sem transcrições.",
+    "sha256": "c38328ac4c35337f7a5c3b3303b816e01bdd354663060d024949895df868d886",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Organização e planejamento/nexus-planejamento/SKILL.md"
+  },
+  {
+    "name": "nexus-pesquisa",
+    "category": "Pesquisa",
+    "triggers": "pesquisa fonte documentação evidência verificar",
+    "description": "Consolidar conhecimento com origem e grau de confiança.",
+    "sha256": "6698bf8d28770caad8039a50412b9d42dd349911319d9817427dfe21617811d0",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Pesquisa/nexus-pesquisa/SKILL.md"
+  },
+  {
+    "name": "nexus-programacao",
+    "category": "Programação",
+    "triggers": "código python node javascript teste depurar programação",
+    "description": "Diagnosticar e corrigir código com validação proporcional.",
+    "sha256": "189d25cd704ddea056b68b92337c8e11fd463f45cd770d2b11833b351f5cf33c",
+    "validation": "reviewed-procedure-not-domain-certified",
+    "relative_source": "03_SKILLS/v03/Programação/nexus-programacao/SKILL.md"
+  },
+  {
+    "name": "ai-agent-engineering",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "ai agent engineering",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "8cba0becf706752fae90e593bb9bf7d33cc30513f3181792c9b6eff1036d0087",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/ai-agent-engineering/SKILL.md"
+  },
+  {
+    "name": "backend-architecture",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "backend architecture",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "102c185055ef3a96ec8b148116612217af7baf96f7c6b3bf2e74c986e60e0580",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/backend-architecture/SKILL.md"
+  },
+  {
+    "name": "datashow-banner-production",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "datashow banner production",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "841e44fdf4573cefc235c029609b7476d269b3aec8d4c9e8b09d9f8dda9dba33",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/datashow-banner-production/SKILL.md"
+  },
+  {
+    "name": "ethical-gamification",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "ethical gamification",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "cf95b73e51178218848d2064ed052ff38c988beb17b7c493b78c78f4ece62493",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/ethical-gamification/SKILL.md"
+  },
+  {
+    "name": "financial-education",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "financial education",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "5b501adf84fdf156542f11f1082abd34bf85a1ee1831a0a9578eb7ad548f346e",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/financial-education/SKILL.md"
+  },
+  {
+    "name": "flutter-engineering",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "flutter engineering",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "4468d09f9924a63765b452b270f15f3918a3bca7effd2c975200666c2c320544",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/flutter-engineering/SKILL.md"
+  },
+  {
+    "name": "learning-design",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "learning design",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "3acd26bc7d62afbd11d24ab1aa920c3f90b050cbee680395546f17358349bc48",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/learning-design/SKILL.md"
+  },
+  {
+    "name": "product-strategy",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "product strategy",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "97552695e0e21fbbc38b574df6854cfb58e0a4e6d81f5fe23dabb29df54a896f",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/product-strategy/SKILL.md"
+  },
+  {
+    "name": "repository-curation",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "repository curation",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "09a1aa4eb04842b0553cdabbc755e9772f04dd30d0e489c17c553ff35ab63873",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/repository-curation/SKILL.md"
+  },
+  {
+    "name": "secure-tool-adoption",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "secure tool adoption",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "80cb25eedc19c0030f55aeba3f1209fecc678edf261743ae2dea9cfa464beb38",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/secure-tool-adoption/SKILL.md"
+  },
+  {
+    "name": "token-efficiency",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "token efficiency",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "88fbf49132177009000abd3070d18df3369afc32884267bd3d9f6ff9ddaf1a90",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/token-efficiency/SKILL.md"
+  },
+  {
+    "name": "token-lean-workflow",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "token lean workflow",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "ebe3489444201e1a0ad83242697f5c25a0bb2d3bcc298899173c970f943da9b3",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/token-lean-workflow/SKILL.md"
+  },
+  {
+    "name": "ux-ui-design",
+    "category": "VNSANTS Ai-skills",
+    "triggers": "ux ui design",
+    "description": "Skill importada da coleção VNSANTS Ai-skills; revise o conteúdo antes de executar instruções.",
+    "sha256": "5aa6da78c0551796524c067371202ef30c491707f57bbc221f563a25f90c2d99",
+    "validation": "imported-untrusted-review-before-use",
+    "relative_source": "03_SKILLS/external/VNSANTS-Ai-skills/ux-ui-design/SKILL.md"
+  }
+]

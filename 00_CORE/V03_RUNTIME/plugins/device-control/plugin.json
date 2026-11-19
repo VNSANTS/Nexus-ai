@@ -1,0 +1,15 @@
+{
+  "id": "nexus-device-control",
+  "version": "0.1.0",
+  "type": "nexus-local-companion",
+  "package": "org.nexusmind.control",
+  "command": "/control",
+  "protocol": "loopback HMAC-SHA256, session ID, nonce and 30-second request lifetime",
+  "port": 18764,
+  "session_minutes": 15,
+  "root_required": false,
+  "manual_android_activation_required": true,
+  "screen_content_reading": false,
+  "admin_policies": ["force-lock"],
+  "actions": ["status", "home", "back", "recents", "notifications", "quick_settings", "tap", "swipe", "lock"]
+}
